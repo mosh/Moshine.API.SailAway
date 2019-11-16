@@ -11,5 +11,8 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)SailAwayProxy.pas" />
     <Compile Include="$(MSBuildThisFileDirectory)SailAwayApi.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)ISailAwayProxy.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Boat.pas" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Sail.pas" />
   </ItemGroup>
 </Project>

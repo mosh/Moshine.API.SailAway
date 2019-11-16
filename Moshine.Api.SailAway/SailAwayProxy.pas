@@ -5,7 +5,7 @@ uses
   Moshine.Foundation.Web;
 
 type
-  SailAwayProxy = public class(WebProxy)
+  SailAwayProxy = public class(WebProxy,ISailAwayProxy)
   private
     property Key:String;
   public
