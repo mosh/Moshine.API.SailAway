@@ -14,10 +14,10 @@ type
       Proxy := ProxyImpl;
     end;
 
-    method BoatInfo: List<Boat>;
+    method BoatInfo(userId:Integer): List<Boat>;
     begin
       var boats := new List<Boat>;
-      var data := Proxy.BoatInfo;
+      var data := Proxy.BoatInfo(userId);
 
       for each boatData in data do
       begin

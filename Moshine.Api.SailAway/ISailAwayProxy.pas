@@ -5,7 +5,7 @@ uses
 
 type
   ISailAwayProxy = public interface
-    method BoatInfo:NSArray<NSDictionary>;
+    method BoatInfo(userId:Integer):NSArray<NSDictionary>;
   end;
 
 end.
