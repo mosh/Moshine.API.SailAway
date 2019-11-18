@@ -16,7 +16,7 @@ type
 
     method BoatInfo(userId:Integer):NSArray<NSDictionary>;
     begin
-      var url := $'http://srv.sailaway.world/cgi-bin/sailaway/APIBoatInfo.pl?usrnr={userId}&key={Key}';
+      var url := $'https://srv.sailaway.world/cgi-bin/sailaway/APIBoatInfo.pl?usrnr={userId}&key={Key}';
       exit WebRequest<NSArray<NSDictionary>>('GET',url,false);
     end;
   end;
