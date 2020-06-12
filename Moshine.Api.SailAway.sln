@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Api.SailAway", "Moshine.Api.SailAway.elements", "{3C1C3B1A-3B6F-4991-BEFE-AEAE176EA843}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Api.SailAway.Shared", "Moshine.Api.SailAway.Shared.elements", "{6B88F4B5-9869-4484-A8CA-632CCF784F9C}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "libMoshine.Api.SailAway", "libMoshine.Api.SailAway.elements", "{9908D8F4-B182-4B78-83B0-C28F22464991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C1C3B1A-3B6F-4991-BEFE-AEAE176EA843}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{3C1C3B1A-3B6F-4991-BEFE-AEAE176EA843}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{3C1C3B1A-3B6F-4991-BEFE-AEAE176EA843}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{3C1C3B1A-3B6F-4991-BEFE-AEAE176EA843}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{9908D8F4-B182-4B78-83B0-C28F22464991}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{9908D8F4-B182-4B78-83B0-C28F22464991}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{9908D8F4-B182-4B78-83B0-C28F22464991}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{9908D8F4-B182-4B78-83B0-C28F22464991}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

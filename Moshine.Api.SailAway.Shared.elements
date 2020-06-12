@@ -5,6 +5,6 @@
     <RootNamespace>Moshine.Api.SailAway</RootNamespace>
     <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
   </PropertyGroup>
-  <Import Project="Moshine.Api.SailAway.projitems" Label="Shared" />
+  <Import Project="Moshine.Api.SailAway.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.SharedProject.targets" />
 </Project>

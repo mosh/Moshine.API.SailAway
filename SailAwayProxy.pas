@@ -5,6 +5,7 @@ uses
   Moshine.Foundation.Web;
 
 type
+
   SailAwayProxy = public class(WebProxy,ISailAwayProxy)
   private
     property Key:String;
@@ -17,7 +18,7 @@ type
     method BoatInfo(userId:Integer):NSArray<NSDictionary>;
     begin
       var url := $'https://srv.sailaway.world/cgi-bin/sailaway/APIBoatInfo.pl?usrnr={userId}&key={Key}';
-      exit WebRequest<NSArray<NSDictionary>>('GET',url,false);
+      exit WebRequestAs<NSArray<NSDictionary>>('GET',url,false);
     end;
   end;
 
